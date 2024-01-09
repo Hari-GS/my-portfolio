@@ -1,0 +1,142 @@
+.img-title{
+    display: flex;
+}
+
+.card-off{
+    background-color: rgb(36, 36, 36);
+    padding: 1rem 1rem;
+    display: flex;
+    transition: 0.2s;
+    margin: 1rem 3rem;
+    border-radius: 10px;
+    
+}
+
+.card-off:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+.card-on{
+    background-color: rgb(36, 36, 36);
+
+    margin-left: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-on:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+.project-text-off{
+    padding-left: 5%;
+   
+}
+
+
+.pro-heading-off{
+    margin-top: 4rem;
+    margin-left: 30rem;
+    transition: 0.2s;
+ 
+}
+
+.pro-heading-on{
+    margin-top: 0rem;
+    margin-left: 4rem;
+    transition: 0.2s;
+}
+
+.image-small{
+    max-height: 150px;
+    transition: 0.2s;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.image-big{
+    height: 300px;
+    transition: 0.2s;
+    border-radius: 7px;
+    margin-left: 3rem;
+    object-fit: cover;
+}
+
+.para-on{
+    width: 350px;
+    padding-left: 17rem;
+    margin-top: -6rem;
+}
+
+.para-off{
+    transition: 0.2s;
+    width: 500px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:850px){
+    .image-small{
+        height: 100px;
+    }
+
+    .image-big{
+        margin-left: 0.2rem;
+        height: 100px;
+        width: 142px;
+
+    }    
+
+    .pro-heading-off{
+        margin-left:2.5rem;
+        margin-top: 2rem;
+        font-size: medium;
+    }
+
+    .card-off{
+        display: flex;
+        flex-direction: row;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .project-text-off{
+        padding-left: 0rem;
+        margin-left: -14.5rem;
+
+    }
+
+    .pro-heading-on{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem; 
+        font-size: large;
+    }
+
+    .para-off{
+        width: 320px;
+    }
+
+    .para-on{
+        padding-left: 0rem;
+        font-size: 14px;
+        padding-top: 7rem;
+        padding-right: 0rem;
+    }
+
+    .card-on{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .img-title{
+        display: flex;
+        flex-direction: row;
+    }
+}
