@@ -13,13 +13,22 @@ const ProjectCard = (props) => {
   
     return (
       <div className={showDetails?"card-on":"card-off"} onClick={toggleDetails}>
-        <div className="img-title">
-          <img className="image-small" alt={`project ${props.heading}`} src={props.img} />
-          <h2 className={showDetails?"pro-heading-on":"pro-heading-off"}>{props.heading}</h2>
-        </div>
+          <img className={showDetails?"image-big":"image-small"} alt={`project ${props.heading}`} src={props.img} />
+          
+          <div className="title-text">
+            <h2 className={showDetails?"pro-heading-on":"pro-heading-off"}>{props.heading}</h2>
+        
+            {showDetails && (
+            <p className={showDetails?"para-on":"para-off"}>{props.text}</p> 
+            )}
+          </div>
+          
+        
+        
           {showDetails && (
-           <p className={showDetails?"para-on":"para-off"}>{props.text}</p> 
+          <p className={showDetails?"links-on":"links-off"}>{props.links}</p> 
           )}
+        
         </div>
       
     );
