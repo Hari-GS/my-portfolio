@@ -35,8 +35,8 @@
 }
 
 .heading{
-    padding-left: 3%;
-    padding-top: 2.5%;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .menu-icon{
@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width:850px){
+    .heading{
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
     .nav-menu-close{
         position: absolute;
         top:-100%;
@@ -91,7 +95,8 @@
         border-radius: 6px;
         border-top: 1px solid rgb(43, 43, 43);
         border-bottom: 1px solid rgb(43, 43, 43);
-        padding-left: 9.5rem;
+        text-align: center;
+
     }
 }
 
