@@ -26,7 +26,13 @@ const ProjectCard = (props) => {
         
         
           {showDetails && (
-          <p className={showDetails?"links-on":"links-off"}>{props.links}</p> 
+          <p className={showDetails?"links-on":"links-off"} >
+            
+            <strong>Tech Stack : {props.techstack}</strong>
+            <p>Github link : <a href={props.gitlink} target="_blank"> {props.gitlinksText}</a></p>
+            <p>Live link URL : <a href={props.livelink} target="_blank"> {props.livelinktext}</a></p>
+            
+          </p>  
           )}
         
         </div>

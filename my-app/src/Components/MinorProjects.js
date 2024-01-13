@@ -7,7 +7,7 @@ import p3 from '../assets/rest api image.jpg'
 function MinorProjects() {
     return (
         <div>
-        <h1 className="heading">Minor Projects</h1>
+        <h1 className="min-heading">Minor Projects</h1>
         <div className="container">
             
             <div className="pro-1">
@@ -16,12 +16,12 @@ function MinorProjects() {
                 <p className="para">Tech Stack : Java swings</p>
             </div>
             <div className="pro-1">
-                <img className="image" src={p2} alt="Sci cal"/>
+                <img className="image" src={p3} alt="Sci cal"/>
                 <h1 className="min-head">Simple Web API</h1>
                 <p className="para">Tech Stack : Java Spring Boot | REST API</p>
             </div>
             <div className="pro-1">
-                <img className="image" src={p3} alt="Sci cal"/>
+                <img className="image" src={p2} alt="Sci cal"/>
                 <h1 className="min-head">Console based employment management system</h1>
                 <p className="para">Tech Stack : C Programming</p>
             </div>        

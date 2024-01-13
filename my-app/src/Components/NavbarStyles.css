@@ -22,9 +22,11 @@
    background-color: rgb(75, 75, 163);
    padding: 1rem 3rem;
    border-radius: 17px;
+   transition: 0.2s;
 }
 
 .options:hover{
+    transition: 0.2s;
     background-color: white;
     color: rgb(75, 75, 163);
 }
@@ -45,8 +47,9 @@
 
 @media screen and (max-width:850px){
     .heading{
-        margin-left: 2rem;
+       
         margin-top: 2rem;
+        margin-left: 1rem
     }
     .nav-menu-close{
         position: absolute;

@@ -16,7 +16,7 @@
     
 }
 
-.heading{
+.min-heading{
     
     text-align: center;
     margin-top: 3rem;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width:850px){
-    .heading{
+    .min-heading{
         margin-left: 0rem;
     }
     .container{

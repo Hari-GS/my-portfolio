@@ -8,16 +8,18 @@
 .about-text{
     padding-left: 5rem;
     padding-top: 8rem;
+    padding-right: 35%;
 }
 
 a.resume-link {
-    color: blue;
+    color: rgb(84, 84, 224);
     display: inline-block;
 }
 
 @media screen and (max-width:850px){
     .about-text{
         padding-left: 1rem;
-        padding-top: 5.5rem;
+        padding-top: 3.5rem;
+        padding-right: 0;
     }
 }
