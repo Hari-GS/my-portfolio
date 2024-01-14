@@ -10,7 +10,7 @@ function ProjectData() {
         <div>
             <ProjectCard
                 heading="Tour Travel Booking Website"
-                text={"- Developed a tour travel  website for thanjavur (a historical city in south india) \n\n- It has capability of  booking a tour package with sign up option\n\n- Note : Backend not developed yet \n\n- My contribution to this project is 100%"}
+                text={"- Developed a tour travel  website for thanjavur (a historical city in south india) \n\n- Note that Backend not developed yet. \n\n- "}
                 gitlink={"https://github.com/Hari-GS/e-com.git"}
                 gitlinksText={"https://github.com/Hari-GS/e-com.git"}
                 techstack={"React js"}
