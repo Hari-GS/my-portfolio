@@ -1,6 +1,6 @@
 import React from 'react'
 import "./MinorProjectsStyles.css"
-import p1 from '../assets/cal project.png'
+import p1 from '../assets/cal.jpg'
 import p2 from '../assets/console emp app.webp'
 import p3 from '../assets/rest api image.jpg'
 
