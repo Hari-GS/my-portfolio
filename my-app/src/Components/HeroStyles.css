@@ -131,7 +131,10 @@
     }
 
     .scroller{
-        margin-top: 8rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        bottom: 1rem;
+        position: absolute;
         margin-left: 0;
         max-width: 90;
     }
