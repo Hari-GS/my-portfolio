@@ -10,7 +10,7 @@ function ProjectData() {
         <div>
             <ProjectCard
                 heading="Tour Travel Booking Website"
-                text={"- Developed a tour travel  website for thanjavur (a historical city in south india) \n\n- Note that Backend not developed yet. \n\n- "}
+                text={"- Developed a tour travel  website for thanjavur (a historical city in south india) \n\n- Note that Backend not developed yet. \n\n- This project was developed to enhance my React Js skills \n\n- I planned to add features like viewing tour plan, about, service ,contact pages with Sign-in option"}
                 gitlink={"https://github.com/Hari-GS/e-com.git"}
                 gitlinksText={"https://github.com/Hari-GS/e-com.git"}
                 techstack={"React js"}
@@ -20,7 +20,7 @@ function ProjectData() {
             />
                <ProjectCard
                 heading="A OTT Web Application"
-                text={"- Developed a OTT Web Application for hosting movies \n\n- It has a new business model of hosting movies directly by the production companies with profit share to App’s developer  \n\n- it has the capability of buying subscription and watching movies \n\n- My contribution to this project is 100%"}
+                text={"- Developed a OTT Web Application for hosting movies with new business model proposal\n\n- User can create a account and log in to the application\n\n- This project is on its initial stage\n\n- I planned to give the capability to give a user buying subscription and watching movies"}
                 gitlink={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 gitlinksText={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 techstack={"JSP | CSS | JavaScript | Java | MySQL "}
@@ -29,12 +29,12 @@ function ProjectData() {
             />
                <ProjectCard
                 heading="My portfolio page"
-                text={"- I developed my own portflio page using react \n\n- It has capability of  showcasing my projects and details of mine \n\n- Note that it's full responsive"}
+                text={"- I developed my own fully responsive portflio page using react from scratch\n\n- It has capability of showcasing my projects and details of mine \n\n- I designed and developed scrolling animation of skills to make it visually appealing"}
                 gitlink={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 gitlinksText={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 techstack={" ReactJs "}
-                livelink={"https://seego-e-com.onrender.com"}
-                livelinktext={" - "}
+                livelink={"https://my-portfolio-bzdl.onrender.com"}
+                livelinktext={"https://my-portfolio-bzdl.onrender.com"}
                 img={p3}
             />
         </div>
