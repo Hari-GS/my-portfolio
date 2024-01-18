@@ -37,8 +37,9 @@
 }
 
 .heading{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-left: 3rem;
+    width: 7rem;
 }
 
 .menu-icon{
@@ -48,8 +49,10 @@
 @media screen and (max-width:850px){
     .heading{
        
-        margin-top: 2rem;
-        margin-left: 1rem
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+        height: 4rem;
+        width: auto;
     }
     .nav-menu-close{
         position: absolute;

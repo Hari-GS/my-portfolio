@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectCard from "./ProjectCard"
-import p2 from '../assets/see go ott.png'
-import p1 from '../assets/travel website screenshot.png'
-import p3 from '../assets/portfolio homepage.png'
+import p2 from '../assets/ott homepage.jpg'
+import p1 from '../assets/tour website home page.jpg'
+import p3 from '../assets/portfolio home page.jpg'
 
 
 function ProjectData() {
@@ -28,7 +28,7 @@ function ProjectData() {
                 img={p2}
             />
                <ProjectCard
-                heading="My portfolio page"
+                heading="My Portfolio page"
                 text={"- I developed my own fully responsive portflio page using react from scratch\n\n- It has capability of showcasing my projects and details of mine \n\n- I designed and developed scrolling animation of skills to make it visually appealing"}
                 gitlink={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 gitlinksText={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
