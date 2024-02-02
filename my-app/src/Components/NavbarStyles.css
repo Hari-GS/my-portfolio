@@ -19,7 +19,7 @@
    margin-left: 1.5rem;
    font-size:larger;
    color: white;
-   background-color: rgb(75, 75, 163);
+   
    padding: 1rem 3rem;
    border-radius: 17px;
    transition: 0.2s;
@@ -27,8 +27,8 @@
 
 .options:hover{
     transition: 0.2s;
-    background-color: white;
-    color: rgb(75, 75, 163);
+    background-color: rgb(75, 75, 163);
+    color:white ;
 }
 
 .navbar{
@@ -102,7 +102,7 @@
         border-top: 1px solid rgb(43, 43, 43);
         border-bottom: 1px solid rgb(43, 43, 43);
         text-align: center;
-
+        background-color:rgb(75, 75, 163) ;
     }
 }
 
