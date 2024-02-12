@@ -10,26 +10,21 @@ function ProjectData() {
         <div>
             <ProjectCard
                 heading="Tour Travel Booking Website"
-                text={"- Developed a tour travel  website for thanjavur (a historical city in south india) \n\n- Note that Backend not developed yet. \n\n- This project was developed to enhance my React Js skills \n\n- I planned to add features like viewing tour plan, about, service ,contact pages with Sign-in option"}
+                text={"- I have designed a tour travel website specifically for Thanjavur, a prominent historical city in South India \n\n- This website allows users to book tour trips conveniently, complete with a sign-in option for a personalized experience.\n\n- Please note that while the project is underway, it is not yet fully completed."}
                 gitlink={"https://github.com/Hari-GS/e-com.git"}
                 gitlinksText={"https://github.com/Hari-GS/e-com.git"}
-                techstack={"React js"}
+                gitlink2={"https://github.com/Hari-GS/tour-app-api.git"}
+                gitlinksText2={"https://github.com/Hari-GS/tour-app-api.git"}
+                front={"Front-end : "}
+                back={"Back-end : "}
+                techstack={"React js | Java Springboot | MongoDB"}
                 livelink={"https://seego-e-com.onrender.com"}
                 livelinktext={"https://seego-e-com.onrender.com"}
                 img={p1}
             />
                <ProjectCard
-                heading="A OTT Web Application"
-                text={"- Developed a OTT Web Application for hosting movies with new business model proposal\n\n- User can create a account and log in to the application\n\n- This project is on its initial stage\n\n- I planned to give the capability to give a user buying subscription and watching movies"}
-                gitlink={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
-                gitlinksText={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
-                techstack={"JSP | CSS | JavaScript | Java | MySQL "}
-                livelinktext={" - "}
-                img={p2}
-            />
-               <ProjectCard
                 heading="My Portfolio page"
-                text={"- I developed my own fully responsive portflio page using react from scratch\n\n- It has capability of showcasing my projects and details of mine \n\n- I designed and developed scrolling animation of skills to make it visually appealing"}
+                text={"- I created a fully responsive portfolio page using React from the ground up.\n\n- This portfolio page effectively showcases my projects and provides detailed information about me. \n\n- Additionally, I ensured seamless navigation and user-friendly interface to optimize the browsing experience."}
                 gitlink={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 gitlinksText={"https://github.com/Hari-GS/See-go-OTT-platform.git"}
                 techstack={" ReactJs "}
