@@ -42,7 +42,7 @@ function Hero() {
                 <h4 className="name">Especially Java Fullstack Development</h4>
             </div>
             <div className="resume">
-                 <a href="https://drive.google.com/file/d/1i9D0wFTJcB-lTsLdeOPIY-qwW6KF3Fji/view?usp=sharing" className="resume-button" target="_blank">
+                 <a href="https://drive.google.com/file/d/1v2heIiQmPQdOuCxQwG8VRFhYxDQUM9C3/view?usp=drive_link" className="resume-button" target="_blank">
                     My Resume
                 </a>
             </div>

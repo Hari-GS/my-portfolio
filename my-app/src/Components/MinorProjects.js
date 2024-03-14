@@ -3,6 +3,7 @@ import "./MinorProjectsStyles.css"
 import p1 from '../assets/cal.jpg'
 import p2 from '../assets/console emp app.webp'
 import p3 from '../assets/rest api image.jpg'
+import p4 from '../assets/see go ott.png'
 
 function MinorProjects() {
     return (
@@ -24,7 +25,12 @@ function MinorProjects() {
                 <img className="image" src={p2} alt="Sci cal"/>
                 <h1 className="min-head">Console based employment management system</h1>
                 <p className="para">Tech Stack : C Programming</p>
-            </div>        
+            </div>  
+            <div className="pro-1">
+                <img className="image" src={p4} alt="image loading error"/>
+                <h1 className="min-head">SeeGo - Basic OTT WebApp prototype</h1>
+                <p className="para">Tech Stack : HTML | CSS | JavaScript | Java Servlets | MySQL</p>
+            </div>       
         </div>
         </div>
         

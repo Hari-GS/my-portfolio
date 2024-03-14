@@ -40,9 +40,6 @@ class Navbar extends Component{
                    <NavLink className="options" to="/about">
                         About
                    </NavLink>
-                   <NavLink className="options" to="/contact">
-                        Contact
-                   </NavLink>
                 </ul>
             </nav>
                 </div>

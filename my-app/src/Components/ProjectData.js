@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard"
 import p2 from '../assets/ott homepage.jpg'
 import p1 from '../assets/tour website home page.jpg'
 import p3 from '../assets/portfolio home page.jpg'
+import p4 from '../assets/tholan page.jpg'
 
 
 function ProjectData() {
@@ -22,6 +23,16 @@ function ProjectData() {
                 livelinktext={"https://seego-e-com.onrender.com"}
                 img={p1}
             />
+                <ProjectCard
+                heading="Mobile App -  Agricultural crops Suggester"
+                text={"- When provided with the current location in Mobile App, the server will utilize historical data analysis to determine the prevailing climate conditions, weather patterns, soil type, and market connections specific to that area\n\n-Based on this analysis, it will recommend suitable crops along with detailed information about them."}
+                gitlink={"NA"}
+                gitlinksText={"NA"}
+                techstack={" React Native | Java Springboot | MongoDB "}
+                livelink={"NA"}
+                livelinktext={"NA"}
+                img={p4}
+            />
                <ProjectCard
                 heading="My Portfolio page"
                 text={"- I created a fully responsive portfolio page using React from the ground up.\n\n- This portfolio page effectively showcases my projects and provides detailed information about me. \n\n- Additionally, I ensured seamless navigation and user-friendly interface to optimize the browsing experience."}
@@ -32,6 +43,7 @@ function ProjectData() {
                 livelinktext={"https://my-portfolio-bzdl.onrender.com"}
                 img={p3}
             />
+            
         </div>
     )
 }
