@@ -4,9 +4,9 @@ import ContactDeatails from '../Components/ContactDeatails'
 
 function about() {
     return (
-        <div>
+        <div className="about-container">
                 
-        
+        <div className="text-contact">
         <div className="about-text">
             <h4>Hello! I’m Hariharan G. I do Fullstack Web Development</h4>
             <h4>I’m currently a final year student in P.R,Engineering college, Vallam, Thanjavur, Tamil Nadu, india.</h4>
@@ -17,7 +17,25 @@ function about() {
         <div>
            <ContactDeatails/>
         </div>
-
+        </div>
+        <div className="skills-container">
+        Skills
+        <ul>
+                <li>Java</li>
+                <li>Springboot</li>
+                <li>React Native</li>
+                <li>Rest API</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React Js</li>
+                <li>JavaScript</li>
+                <li>C programming</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+       
         </div>
     )
 }

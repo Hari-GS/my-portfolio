@@ -47,23 +47,7 @@ function Hero() {
                 </a>
             </div>
             </div>
-            
-            <div className="scroller">
-            <ul className="tag-list scroller-inner">
-                <li>HTML</li>
-                <li>TailWind CSS</li>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>C programming</li>
-                <li>Java</li>
-                <li>Springboot</li>
-                <li>Rest API</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-                <li>Figma</li>
-            </ul>
-            </div>
-            
+           
         </div>
         
     )
